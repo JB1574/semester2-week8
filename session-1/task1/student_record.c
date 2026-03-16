@@ -19,6 +19,10 @@
 float calculate_average(struct student_record student) {
     // TODO: Implement this function to calculate and return the average
     // of the three module marks
+    int sum = 0;
+    for (int i=0; i <3; i++){
+        
+    }
     
     return 0.0; // Placeholder return value
 }
@@ -41,6 +45,9 @@ int main( void ) {
     // Example: name = "John Smith", id = 12345, marks = {75.0, 68.5, 81.0}
     
     struct student_record student;
+    student.name = "John Smith";
+    student.id = 12345;
+    student.marks = {75.0,68.5,81.0};
     
     // TODO: display the student data and average mark
     
